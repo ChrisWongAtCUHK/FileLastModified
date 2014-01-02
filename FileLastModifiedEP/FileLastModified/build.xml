@@ -91,7 +91,7 @@
 		<echo>Sample cmd: ant run -Dfile=logfile.log -DnewDate="01/28/2014 09:24:17"</echo>
 		<echo>	alias to java -cp bin demo.file.attribute.ChangeFileLast "logfile.log" "01/28/2014 09:24:17"</echo>
 		<echo>Sample cmd: ant jar -Dfile=logfile.log -DnewDate="01/28/2014 09:24:17"</echo>
-		<echo>	alias to java -jar deploy\FileLastModified "logfile.log" "01/28/2014 09:24:17"</echo>
+		<echo>	alias to java -jar deploy\FileLastModified.jar "logfile.log" "01/28/2014 09:24:17"</echo>
 		<echo>Sample cmd: ant help</echo>
 	</target>
 </project>
